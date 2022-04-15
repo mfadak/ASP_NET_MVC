@@ -1,0 +1,28 @@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Stil.css" rel="stylesheet" />
+    <title>_Temel</title>
+</head>
+<body class="hello">
+    <header>
+        <h1>< header ></h1>
+    </header>
+    @Html.Action("MenuBolum", "Home")
+    
+    @RenderBody()
+    <aside>
+        < aside >
+    </aside>
+    <footer>
+        < footer >
+    </footer>
+</body>
+</html>
