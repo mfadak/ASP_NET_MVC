@@ -1,0 +1,13 @@
+@model List<WebApplication3.Models.Menu>
+
+<nav>
+    MENU
+    <ul>
+        @foreach (var m in Model)
+        {
+            <li>
+                <a href="@m.Url">@m.Yazi</a>
+            </li>
+        }
+    </ul>
+</nav>
